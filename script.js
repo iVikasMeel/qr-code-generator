@@ -2,12 +2,12 @@ const QrInput = document.getElementById('qrInput');
 const QrImage = document.getElementById('qrImg')
 const QrButton = document.getElementById('qrButton');
 
-console.log(QrInput, QrImage, QrButton);
+// console.log(QrInput, QrImage, QrButton);
 
 qrButton.addEventListener('click' , ()=>{
 
     const inputValue = QrInput.value;
-    console.log(inputValue);
+    // console.log(inputValue);
 
     if (!inputValue) {
         alert("Please enter a Valid URL!")
