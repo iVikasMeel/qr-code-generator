@@ -1,7 +1,6 @@
 const QrInput = document.getElementById('qrInput');
 const QrImage = document.getElementById('qrImg');
 const QrButton = document.getElementById('qrButton');
-
 // console.log(QrInput, QrImage, QrButton);
 
 QrButton.addEventListener('click' , ()=>{
@@ -14,7 +13,6 @@ QrButton.addEventListener('click' , ()=>{
         QrImage.alt = `QR image for ${inputValue}`
     }
 })
-
 
 QrInput.addEventListener('keypress', function(e) {
     if (e.key === "Enter") {
